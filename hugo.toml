@@ -37,6 +37,7 @@ url = "/random"
 weight = 4
 
 [params]
+  description = " "
   avatar = 'avatar.jpg'
   [[params.social]]
     icon = "github"
