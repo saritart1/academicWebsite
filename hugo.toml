@@ -1,0 +1,47 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Sara Restrepo-Tamayo'
+theme = 'm10c'
+
+[menu]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/about_me"
+weight = 1
+
+[[menu.main]]
+identifier = "publications"
+name = "Publications"
+url = "/publications"
+weight = 2
+
+[[menu.main]]
+identifier = "cv"
+name = "Curriculum Vitae"
+url = "/pdfs/cv.pdf"
+weight = 3
+
+[[menu.main]]
+identifier = "random"
+name = "Random"
+url = "/random"
+weight = 4
+
+[params]
+  avatar = 'avatar.jpg'
+  [[params.social]]
+    icon = "github"
+    name = "My Github"
+    url = "https://github.com/saritart1"
+
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/restreposarat" 
+  
+  [[params.social]]
+    icon = "google-scholar"
+    name = "Google"
+    url = "https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&user=1qvQy9kAAAAJ&gmla=AH70aAUWDJr2_vxd2-gqjItikg-cxo0mDnsQKn6_zbCAMnapDjBXuJoWJtzVPMXnNnOZRgmcOQ2pP6rUFpzDvgbX_qJQvSqSgItG4sbF_Y-fnBA" 
