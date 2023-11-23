@@ -1,14 +1,21 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sartiart1.github.io/'
 languageCode = 'en-us'
 title = 'Sara Restrepo-Tamayo'
 theme = 'm10c'
+[homepage]
+layout = "custom"
+
+[markup]
+[goldmark]
+    [markup.goldmark.renderer]
+          hardWraps = true
 
 [menu]
 
 [[menu.main]]
 identifier = "home"
 name = "Home"
-url = "/about_me"
+url = "/"
 weight = 1
 
 [[menu.main]]
@@ -19,7 +26,7 @@ weight = 2
 
 [[menu.main]]
 identifier = "cv"
-name = "Curriculum Vitae"
+name = "CV"
 url = "/pdfs/cv.pdf"
 weight = 3
 
@@ -42,6 +49,10 @@ weight = 4
     url = "https://twitter.com/restreposarat" 
   
   [[params.social]]
-    icon = "google-scholar"
+    icon = "award"
     name = "Google"
     url = "https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&user=1qvQy9kAAAAJ&gmla=AH70aAUWDJr2_vxd2-gqjItikg-cxo0mDnsQKn6_zbCAMnapDjBXuJoWJtzVPMXnNnOZRgmcOQ2pP6rUFpzDvgbX_qJQvSqSgItG4sbF_Y-fnBA" 
+[[params.social]]
+icon = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/in/sara-restrepo-tamayo/"
